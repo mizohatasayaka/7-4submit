@@ -1,0 +1,117 @@
+img.myramen-img{
+   height: 140px;
+   width: 140px;
+}
+
+body{
+font-family: 'TsukuARdGothic-Regular'
+}
+
+section{
+    width : 500px;
+    font-family: 'TsukuARdGothic-Regular'
+  }
+
+  .myramens{
+    margin: 0 auto;
+    width : 900px;
+    display: flex;
+    flex-wrap: wrap; 
+    
+  }
+  a.detail-btn{
+      font-size: 10px;
+  }
+
+  div.infomation{
+    width: 500px;
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    padding:10vmin;
+    margin-left: 400px;
+    margin-top: 3px;
+  
+  }
+
+  div.title{
+      width: 900px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+ 
+  a.post-btn{
+      margin-top: 20px;
+      margin-left: 100px;
+      padding-left: 100px;
+  }
+
+  div.create-info{
+    margin-left: 100px;
+  }
+
+  img.kensaku-img{
+    height: 180px;
+    width: 180px;
+  }
+div.kensakukekka{
+    margin-left: 400px;
+    width : 1000px;
+}
+
+div.tuika{
+  margin-left: 300px;
+}
+
+div.ramen-syousai{
+  margin-left: 300px;
+}
+
+div.ramen-edit{
+  margin-left: 300px;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+div.tuikatuika{
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-bottom: 400px;
+}
+
+div.ramendelete{
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-bottom: 400px;
+  font-size: 2ch;
+}
